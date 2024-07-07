@@ -9,8 +9,7 @@ function Reservation() {
           <div className="card">
             <div className="card-body text-center">
               <p className="fs-1 mb-0 fw-bold">
-                <span className="bi-whatsapp"></span> 085819157248 /
-                081282854044
+                <span className="bi-whatsapp"></span> 085819157248
               </p>
             </div>
           </div>

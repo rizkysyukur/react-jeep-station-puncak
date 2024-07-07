@@ -237,6 +237,77 @@ function PhotoGalery() {
     },
   ];
 
+  const imagesST = [
+    {
+      original: "../../assets/img/short-trip/st1.jpeg",
+      thumbnail: "../../assets/img/short-trip/st1.jpeg",
+    },
+    {
+      original: "../../assets/img/short-trip/st2.jpeg",
+      thumbnail: "../../assets/img/short-trip/st2.jpeg",
+    },
+    {
+      original: "../../assets/img/short-trip/st3.jpeg",
+      thumbnail: "../../assets/img/short-trip/st3.jpeg",
+    },
+    {
+      original: "../../assets/img/short-trip/st4.jpeg",
+      thumbnail: "../../assets/img/short-trip/st4.jpeg",
+    },
+    {
+      original: "../../assets/img/short-trip/st5.jpeg",
+      thumbnail: "../../assets/img/short-trip/st5.jpeg",
+    },
+    {
+      original: "../../assets/img/short-trip/st6.jpeg",
+      thumbnail: "../../assets/img/short-trip/st6.jpeg",
+    },
+    {
+      original: "../../assets/img/short-trip/st7.jpeg",
+      thumbnail: "../../assets/img/short-trip/st7.jpeg",
+    },
+    {
+      original: "../../assets/img/8.jpeg",
+      thumbnail: "../../assets/img/8.jpeg",
+    },
+    {
+      original: "../../assets/img/9.jpeg",
+      thumbnail: "../../assets/img/9.jpeg",
+    },
+    {
+      original: "../../assets/img/10.jpeg",
+      thumbnail: "../../assets/img/10.jpeg",
+    },
+    {
+      original: "../../assets/img/11.jpeg",
+      thumbnail: "../../assets/img/11.jpeg",
+    },
+    {
+      original: "../../assets/img/12.jpeg",
+      thumbnail: "../../assets/img/12.jpeg",
+    },
+    {
+      original: "../../assets/img/short-trip/st8.jpeg",
+      thumbnail: "../../assets/img/short-trip/st8.jpeg",
+    },
+    {
+      original: "../../assets/img/short-trip/st9.jpeg",
+      thumbnail: "../../assets/img/short-trip/st9.jpeg",
+    },
+    {
+      original: "../../assets/img/short-trip/st10.jpeg",
+      thumbnail: "../../assets/img/short-trip/st10.jpeg",
+    },
+    {
+      original: "../../assets/img/short-trip/st11.jpeg",
+      thumbnail: "../../assets/img/short-trip/st11.jpeg",
+    },
+    {
+      original: "../../assets/img/short-trip/st12.jpeg",
+      thumbnail: "../../assets/img/short-trip/st12.jpeg",
+    },
+  ];
+
   return (
     <div className="container photo-galery mb-5">
       <div className="row text-center">
@@ -247,6 +318,16 @@ function PhotoGalery() {
       <div className="row">
         <div className="col">
           <ImageGallery items={images} />;
+        </div>
+      </div>
+      <div className="row text-center">
+        <div className="col">
+          <h4 className="text-white">GALERI FOTO (SHORT TRIP)</h4>
+        </div>
+      </div>
+      <div className="row">
+        <div className="col">
+          <ImageGallery items={imagesST} />;
         </div>
       </div>
     </div>

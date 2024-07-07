@@ -26,11 +26,6 @@ function Footer() {
               target="_blank"
               className="bi-whatsapp text-light me-3 fs-3"
             ></a>
-            <a
-              href="https://wa.link/5xx6mh"
-              target="_blank"
-              className="bi-whatsapp text-light fs-3"
-            ></a>
           </div>
         </div>
       </div>
